@@ -1,0 +1,1 @@
+digraph G { node [shape=record]; PatientRecord [label="Patient Record|name: str|age: str|gender: str|disease: str|phone: str"]; InMemoryList [label="patients list|Patient objects"]; InMemoryList -> PatientRecord [label="contains"]; }

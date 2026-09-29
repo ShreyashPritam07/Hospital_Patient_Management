@@ -1,0 +1,1 @@
+digraph G { rankdir=LR; User [shape=ellipse]; Add [label="Add Patient"]; Show [label="Show Patients"]; Search [label="Search Patient"]; Delete [label="Delete Patient"]; Exit [label="Exit"]; User -> Add; User -> Show; User -> Search; User -> Delete; User -> Exit; }

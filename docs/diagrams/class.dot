@@ -1,0 +1,1 @@
+digraph G { rankdir=LR; Patient [shape=record,label="Patient|name|age|gender|disease|phone|to_dict()"]; Service [shape=record,label="PatientService|add_patient()|get_patients()|search_patient()|delete_patient()"]; Repo [shape=record,label="PatientRepository|add()|all()|find_by_name()|delete_by_name()"]; Service -> Repo; Repo -> Patient; }

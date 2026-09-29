@@ -1,0 +1,1 @@
+digraph G { rankdir=LR; User -> Main [label="choose Add"]; Main -> Operations [label="collect inputs"]; Operations -> Service [label="add_patient"]; Service -> Validators [label="validate"]; Service -> Repository [label="store"]; Repository -> Service [label="success"]; Service -> Operations [label="patient"]; Operations -> User [label="confirmation"]; }

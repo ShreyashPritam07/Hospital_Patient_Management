@@ -1,0 +1,1 @@
+digraph G { rankdir=LR; node [shape=box]; User -> UI; UI -> Operations; Operations -> Service; Service -> Validators; Service -> Repository; Repository -> PatientModel; }
